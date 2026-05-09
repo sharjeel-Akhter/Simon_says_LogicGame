@@ -36,7 +36,7 @@ A classic memory game built for the browser — watch the sequence, repeat it, a
 ## Getting Started Locally
 
 ```bash
-git clone https://github.com/your-username/simon-says.git
+git clone https://github.com/sharjeel-akhter/simon-says.git
 cd simon-says
 open index.html
 ```
