@@ -24,7 +24,7 @@ function gameFlash(btn){
     btn.classList.add("gameflash");
     setTimeout(function () {
         btn.classList.remove("gameflash")
-    }, 250);
+    }, 650);
 }
 
 function userFlash(btn){
@@ -38,7 +38,7 @@ function checkAns(idx){
     // console.log(`current level ${level}`)
     if(userSeq[idx] === gameSeq[idx]){
         if(userSeq.length == gameSeq.length){
-            setTimeout(levelUp() , 1000);
+            setTimeout(levelUp , 1000);
         }
     }else{
         h3.innerHTML = `Game Over! <b>Your score is : ${level}</b> <br> Press Any Key to Start`;
