@@ -3,6 +3,7 @@
 A classic memory game built for the browser — watch the sequence, repeat it, and see how far you can go.
 
 🔗 **[Play it live](https://vermillion-baklava-7e51db.netlify.app/)**
+🔗 **[Simon-says(github deployed)](https://sharjeel-akhter.github.io/Simon_says_LogicGame/)**
 
 ---
 
