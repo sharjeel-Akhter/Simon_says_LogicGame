@@ -1,0 +1,48 @@
+/* -------------Simon says ------------*/
+
+body{
+   text-align: center;
+    background-color: darkslategray;
+    color: antiquewhite;
+  
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+
+} 
+
+.btn{
+     height: 200px;
+    width: 200px;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: 2.5rem;
+    
+}
+.red{
+    background-color: red;
+}
+.blue{ 
+    background-color: blue;
+}
+.aqua{
+    background-color: aqua;
+}
+.brown{
+    background-color: brown;
+}
+
+.gameflash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: black;
+}
+
+.gameOver{
+    background-color: red;
+}
