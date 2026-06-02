@@ -1,48 +1,58 @@
 /* -------------Simon says ------------*/
 
-body{
-   text-align: center;
+body {
+    text-align: center;
     background-color: darkslategray;
     color: antiquewhite;
-  
-
+    font-family: sans-serif;
 }
 
-.box{
+/* Arrange rows vertically */
+.box {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-
+    margin-top: 2rem;
 } 
 
-.btn{
-     height: 200px;
+/* Arrange buttons within the rows horizontally */
+.line1, .line2 {
+    display: flex;
+}
+
+.btn {
+    height: 200px;
     width: 200px;
     border: 4px solid black;
     border-radius: 10px;
-    margin: 2.5rem;
-    
+    margin: 1rem; /* Reduced slightly for better screen fit */
+    cursor: pointer;
+    transition: 0.1s ease;
 }
-.red{
+
+.red {
     background-color: red;
 }
-.blue{ 
+.blue { 
     background-color: blue;
 }
-.aqua{
+.aqua {
     background-color: aqua;
 }
-.gold{
+.gold {
     background-color: gold;
 }
 
-.gameflash{
-    background-color: green;
+/* Flash states */
+.gameflash {
+    background-color: green !important;
 }
 
-.userflash{
-    background-color: black;
+.userflash {
+    background-color: black !important;
 }
 
-.gameOver{
-    background-color: red;
+.gameOver {
+    background-color: red !important;
 }
