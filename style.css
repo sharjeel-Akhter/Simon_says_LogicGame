@@ -56,3 +56,26 @@ body {
 .gameOver {
     background-color: red !important;
 }
+
+#startBtn{
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+#startBtn:hover{
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+#startBtn:active{
+    transform: scale(0.95);
+}

@@ -9,14 +9,26 @@ let userSeq = [];
 let start = false;
 let level = 0;
 
-// FIXED: Changed "brown" to "gold" to match your HTML and CSS definitions
+
 let btns = ["red", "aqua", "blue", "gold"];
 
+
+
 body.addEventListener("keypress", function(event){
-    // Ignore spacebar inputs so active button clicks don't accidentally restart the game
+   
     if(event.key === " " || event.code === "Space") return;
 
     if(start == false){
+        console.log("Game has been Started");
+        start = true;
+        levelUp();
+    }
+});
+
+let startBtn = document.querySelector("#startBtn");
+
+startBtn.addEventListener("click", function () {
+    if (!start) {
         console.log("Game has been Started");
         start = true;
         levelUp();
